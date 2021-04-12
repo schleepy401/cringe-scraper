@@ -53,9 +53,3 @@ def res():
 
     outputData = { "data": outputJson}
     return jsonify(outputData)
-
-if __name__=="__main__":
-	app.run()
-
-
-    return jsonify(urls)
