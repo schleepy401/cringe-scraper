@@ -33,7 +33,7 @@ Get random cringey memes via this.
 - The data is returned in JSON format. Feel free to use this in your apps or projects.
 
 ## Using the API
-- Just call the link [https://cringescraper.herokuapp.com](https://cringecraper.herokuapp.com). The API will return a data in the following format:
+- Just call the link [https://cringescraper.herokuapp.com](https://cringescraper.herokuapp.com). The API will return a data in the following format:
 ```
 {
   "data":
@@ -80,6 +80,89 @@ Get random cringey memes via this.
   - *"author":* A string which returns the username of the original poster from reddit.
   - *"permalink":* A string which returns a reddit permalink of the following format: ```"/r/subReddit/comments/userid/post_name_or_title_in_short"```. Can be used to share it or view the original post on reddit via proper decoration, i.e. adding ```"reddit.com/"``` in front of the permalink.
   - *"title":* A string which returns the title of the original post.
+### Making custom requests
+  - The API currently supports custom requests for the number of memes per subreddit. For that, just add ```/custom?n=[number of memes you want]``` at the end of the original API link.
+  - *Example:* Calling the API with a custom request of 5 memes per subreddit by using [https://cringescraper.herokuapp.com/custom?n=5](https://cringescraper.herokuapp.com/custom?n=5), we get:
+  ```
+  {
+    "data":
+    [
+      {
+        "author": "MrSluagh",
+        "permalink": "/r/sadmemes/comments/mphwop/just_the_thought_of_getting_or_having_a_loved_one/",
+        "title": "Just the thought of getting, or having a loved one with either disease is the scariest thing to me as you’re personality is slowly withering away.",
+        "url": "https://i.redd.it/pm88fpv2urs61.jpg"
+      },
+      {
+        "author": "hornycommunist69",
+        "permalink": "/r/sadmemes/comments/mopj3l/based_on_a_true_story/",
+        "title": "Based on a true story...",
+        "url": "https://i.redd.it/6dfa8o607js61.jpg"
+      },
+      {
+        "author": "GiannRYS",
+        "permalink": "/r/sadmemes/comments/mozuqt/this_world_shall_know_pain/",
+        "title": "this world shall know pain",
+        "url": "https://i.redd.it/mawor6534ms61.jpg"
+      },
+      {
+        "author": "MrSkeletonMan1",
+        "permalink": "/r/sadcringe/comments/mp80v2/why_even_bother_living_at_this_point/",
+        "title": "Why even bother living at this point?",
+        "url": "https://i.redd.it/618jlch0pos61.jpg"
+      },
+      {
+        "author": "b4a4",
+        "permalink": "/r/sadcringe/comments/mpa5wo/i_donno_what_to_say/",
+        "title": "i donno what to say",
+        "url": "https://i.redd.it/1y9o19jgmps61.jpg"
+      },
+      {
+        "author": "agrandthing",
+        "permalink": "/r/sadcringe/comments/mp093y/this_pitiful_piece_of_insanity_on_my_street/",
+        "title": "This pitiful piece of insanity on my street",
+        "url": "https://i.redd.it/w9eyr1pv7ms61.jpg"
+      },
+      {
+        "author": "LolEccsDee",
+        "permalink": "/r/sadcringe/comments/mpc675/homies_down_bad/",
+        "title": "Homies down bad",
+        "url": "https://i.imgur.com/Dk9p0ab.jpg"
+      },
+      {
+        "author": "dope_ass_freshprince",
+        "permalink": "/r/SadMemesForHipTeens/comments/mpigb3/flawed_by_chris_w/",
+        "title": "Flawed by Chris w.❤",
+        "url": "https://i.redd.it/hkw7rx3izrs61.jpg"
+      },
+      {
+        "author": "chromeir",
+        "permalink": "/r/SadMemesForHipTeens/comments/mnf830/reality_is_painful/",
+        "title": "Reality is painful",
+        "url": "https://i.redd.it/9n4aq610w4s61.jpg"
+      },
+      {
+        "author": "None",
+        "permalink": "/r/SadMemesForHipTeens/comments/mmms28/parmesan/",
+        "title": "parmesan",
+        "url": "https://i.redd.it/pi8scqrahvr61.jpg"
+      },
+      {
+        "author": "KentoPento",
+        "permalink": "/r/Cringetopia/comments/mpgprg/5_minute_crafts_is_taking_over_the_sub/",
+        "title": "5 Minute Crafts is taking over the sub.",
+        "url": "https://i.redd.it/3rvpqr7xkrs61.jpg"
+      },
+      {
+        "author": "N1111C4",
+        "permalink": "/r/Cringetopia/comments/mpdv83/meta_meme/",
+        "title": "Meta meme",
+        "url": "https://i.redd.it/e4s863yhvqs61.jpg"
+      }
+    ]
+  }
+  ```
+  - **NOTE:** The above response was generated the day I made the first commit for the custom requests code, hence the output is not perfect yet. It will be corrected in the coming days.
 
 ## Changelog
 - **Version 1.0:**
