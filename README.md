@@ -9,9 +9,11 @@ Get random cringey memes via this.
     </li>
     <li>
       <a href="#using-the-api">Using the API</a>
+      <ol>
       <li>
         <a href="#making-custom-requests">Making custom requests</a>
       </li>
+      </ol>
     </li>
     <li>
       <a href="#changelog">Changelog</a>
