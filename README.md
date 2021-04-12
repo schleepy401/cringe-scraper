@@ -22,10 +22,10 @@ Get random cringey memes via this.
       <a href="#changelog">Changelog</a>
       <ol>
       <li>
-        <a href=""></a>
+        <a href="#version-10">Version 1.0 (4th April 2021)</a>
       </li>
       <li>
-        <a href=""></a>
+        <a href="#version-20">Version 2.0 (13th April 2021)</a>
       </li>
       </ol>
     </li>
