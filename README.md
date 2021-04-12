@@ -11,12 +11,23 @@ Get random cringey memes via this.
       <a href="#using-the-api">Using the API</a>
       <ol>
       <li>
+        <a href="#datapoints">Datapoints</a>
+      </li>
+      <li>
         <a href="#making-custom-requests">Making custom requests</a>
       </li>
       </ol>
     </li>
     <li>
       <a href="#changelog">Changelog</a>
+      <ol>
+      <li>
+        <a href=""></a>
+      </li>
+      <li>
+        <a href=""></a>
+      </li>
+      </ol>
     </li>
     <!-- TODO
     <li>
@@ -59,7 +70,7 @@ Get random cringey memes via this.
     ]
 }
 ```
-- **Datapoints:**
+### Datapoints
   - The API returns a JSON object in the following format:
   ```
   {
@@ -170,12 +181,12 @@ Get random cringey memes via this.
   - **NOTE:** The above response was generated the day I made the first commit for the custom requests code, hence the output is not perfect yet. It will be corrected in the coming days.
 
 ## Changelog
-- **Version 1.0:**
+### Version 1.0
   - *Date of release:* 4th April, 2021
   - First version of Cringe scraping API.
   - *Bugs with the current version:* None yet, just that more parameters and keys are to be added.
 
-- **Version 2.0:**
+### Version 2.0
   - *Date of release:* 13th April, 2021
   - *New features with this build:*
     - The API now supports **custom requests** for a specific number of memes per subreddit! Go ahead, check it out now, but first check the docs.
