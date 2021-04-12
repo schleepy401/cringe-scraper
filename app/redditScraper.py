@@ -16,6 +16,7 @@ def home():
     titles = []
     urls = []
     permalinks = []
+    outputJson = []
     subReddits = ['your', 'choice', 'of', 'subreddits', 'here']
 
 
