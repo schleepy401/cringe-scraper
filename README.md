@@ -165,7 +165,7 @@ Get random cringey memes via this.
 ### Version 3.0
   - *Date of release:* 21st May, 2021
   - *New features with this build:*
-    - The API now supports custom subreddit search via the argument ```sub```. Please check the <a href="making-custom-requests">Making Custom Requests</a> section for more information.
+    - The API now supports custom subreddit search via the argument ```sub```. Please check the <a href="#making-custom-requests">Making Custom Requests</a> section for more information.
   - *Bugs with the current version:*
     - There are still bugs with the randomisation of memes and exact meme numbering. Working on it as well.
 <!-- TODO
