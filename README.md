@@ -1,5 +1,5 @@
 # cringe-scraper
-Get random cringey memes via this.
+A Reddit scraping API which began as a cringe subs scraping bot hence the name.
 
 ## Table of Contents
 <!-- TABLE OF CONTENTS -->
